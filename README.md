@@ -11,7 +11,7 @@ This project implements a full DDPM from scratch using PyTorch, closely followin
 - ✅ EMA (Exponential Moving Average) for stability
 - ✅ Sampling using DDPM reverse process
 - ✅ Model and sample image saving every 10 epochs
-- ✅ Full checkpointing in `.pt` and `.safetensors` formats
+- ✅ Full checkpointing in `.pt` format
 
 ## Dataset
 
