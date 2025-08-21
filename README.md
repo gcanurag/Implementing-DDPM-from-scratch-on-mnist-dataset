@@ -50,10 +50,9 @@ python train.py
 ## How to Load a Saved Model
 
 ```python
-from safetensors.torch import load_file
-
-state_dict = load_file("checkpoints/ddpm_epoch_200.safetensors")
-model.load_state_dict(state_dict)
+model.load_state_dict(torch.load("ddpm_mnist_50_epochs.pt"))
+model.to(device)
+model.eval()
 ```
 
 ## References
