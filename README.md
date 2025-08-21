@@ -41,9 +41,12 @@ python train.py
 ## Sample Output
 
 <p align="center">
-  <img src="result/after 40 epochs.png" width="500"/>
+  <img src="result/after 40 epochs_1.png" width="500"/>
 </p>
 
+<p align="center">
+  <img src="result/after 40 epochs_2.png" width="500"/>
+</p>
 ## How to Load a Saved Model
 
 ```python
